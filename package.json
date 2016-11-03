@@ -1,0 +1,48 @@
+{
+  "name": "angular-2-es6-ts-karma",
+  "description": "Angular 2 starter for testing with Typescript and ES6 using browserify and babel/babelify",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "Jonas Krispin | Colorfulstan",
+  "contributors": [],
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/revolunet/angular-google-analytics.git"
+  },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/core": "~2.1.2",
+    "@angular/common": "~2.1.2",
+    "@angular/compiler": "~2.1.2",
+    "@angular/platform-browser": "~2.1.2",
+    "@angular/platform-browser-dynamic": "~2.1.2",
+    "babel-polyfill": "*",
+    "babel-preset-es2015": "*",
+    "babelify": "*",
+    "browserify": "*",
+    "jasmine-core": "~2.5.2",
+    "karma": "*",
+    "karma-browserify": "*",
+    "karma-chrome-launcher": "*",
+    "karma-coverage": "*",
+    "karma-jasmine": "*",
+    "karma-notify-reporter": "*",
+    "karma-spec-reporter": "0.0.26",
+    "reflect-metadata": "~0.1.8",
+    "remap-istanbul": "*",
+    "tsify": "*",
+    "typings": "~1.5.0",
+    "watchify": "~3.7.0"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "test": "karma start test/karma.conf.js --single-run --browsers Chrome",
+    "test-server": "karma start test/karma.conf.js --browsers Chrome"
+  }
+}
